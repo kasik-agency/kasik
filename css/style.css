@@ -36,13 +36,13 @@
     color: #405B41;
     font-size: 30px;
 }
-.segunda{
+/*.segunda{
     background:url("../img/casa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
-}
+}*/
 .caja{
     box-shadow: 3px 3px 56px 0px rgba(122,122,122,1);
     margin-top: -180px;
