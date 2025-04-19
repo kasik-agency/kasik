@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kasik</title>
+    <link rel="icon" type="image/png" href="img/piramide.png"/>
+    
+</head>
+<body>
+    <div class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-md-6 text-light" id="imagen-piramide">
+                <div class="col-img"></div>
+                
+            </div>
+            <div class="col-md-6 text-light p-5">              
+                <img src="img/logo.png" alt="" class="pb-6" width="150px">
+                <h1 class="mb-4" >Descubre la cultura maya:<br>
+                    Visita su población <br>
+                    Comparte experiencias
+
+                </h1>
+                <p class="lead mb-5">
+                    Somos una empresa especializada en la creación de viajes de turismo comunitario en las zonas del sur de México. Trabajamos con diferentes comunidades indígenas de la población maya para ayudar en su desarrollo económico y social a través del turismo.
+
+                </p>
+                <a href="#" class="btn btn-secondary text-light px-5 py-2"data-bs-toggle="modal" data-bs-target="#modal">Reserva tu plaza</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="contenido h-130">
+        <div class="d-flex vh-100">
+            <div class="col-img col-md-6 d-none d-md-block"></div>
+            <div class="col-md-6 bg-primary text-light p-5">
+                <img src="img/logo.png" alt="" class="pb-6" width="150px">
+                <h1 class="mb-4" >Descubre la cultura maya:<br>
+                     Visita su población <br>
+                     Comparte experiencias
+
+                </h1>
+                <p class="lead mb-5">
+                    Somos una empresa especializada en la creación de viajes de turismo comunitario en las zonas del sur de México. Trabajamos con diferentes comunidades indígenas de la población maya para ayudar en su desarrollo económico y social a través del turismo.
+
+                </p>
+                <a href="#" class="btn btn-secondary text-light px-5 py-2"data-bs-toggle="modal" data-bs-target="#modal">Reserva tu plaza</a>
+            </div>
+        </div>
+    </div> -->
+    <div id="modal" class="modal fade">
+        <div class="modal-dialog modal-lg mt-5">
+            <div class="col-lg-12 contac-form">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <div class="text-end">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="card-title text-center pb-3">
+                            <h3>Reserva tu plaza</h3>
+                            <p-lead class="text-muted fw-light">Reserva ya tu plaza para vivir una experiencia única junto a verdaderos mayas.</p-lead>
+                        </div>
+                        <form class="px-5">
+                            <div class="mb-3 w-100">
+                                <input type="text" placeholder="Nombre" class="form-control bg-light">
+                            </div>
+                            <div class="mb-3 w-100">
+                                <input type="text" placeholder="Apellidos" class="form-control bg-light">
+                            </div>
+                            <div class="mb-3 w-100">
+                                <input type="email" placeholder="Correo electrónico" class="form-control bg-light">
+                            </div>
+                            <div class="mb-3 w-100">
+                                <input type="text" placeholder="Destino" class="form-control bg-light">
+                            </div>
+                            <input type="submit" value="Enviar" class="btn btn-secondary w-100 rounded-0 mb-5">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <h1 class="mb-4 mt-4 text-center text-success display-3 destinos">Destinos</h1>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-5">
+                <div class="card bloque h-100 border-0">
+                  <img src="img/Campeche,_Campeche_(21092411476)-2.jpg" class="card-img-top transformacion" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center Cartas">Campeche</h5>
+                    <p class="card-text">Campeche es una ciudad portuaria mexicana en la cual
+                        se encuentran diferentes yacimientos mayas importantes como
+                        Edzná, Calakmul e Isla Jaina.
+                        <br>
+                        <br>
+                        En este estado se estima que viven actualmente alrededor de 71.000 personas de diferentes comunidades indígenas mayas que hablan activamente el idioma local. </p>
+                        <br>
+                        <input type="submit" value="Reserva" class="btn btn-secondary  w-100 rounded-0 mb-5">
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-5">
+                <div class="card bloque h-100 border-0">
+                  <img src="img/selva chiapas.jpg" class="card-img-top transformacion" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center Cartas">Chiapas</h5>
+                    <p class="card-text">Chiapas es un estado al sur de México. Sus zonas montañosas altas y el denso 
+                        bosque tropical tienen varios sitios arqueológicos mayas.
+                        <br>
+                        <br>
+                        En este estado se estima que viven actualmente 600.000 
+                        personas de diferentes comunidades indígenas mayas, 
+                        las más pobladas son la Tzeltales y la Tzotziles.</p>
+                        <br>
+                        <input type="submit" value="Reserva" class="btn btn-secondary  w-100 rounded-0 mb-5">
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-5">
+                <div class="card bloque h-100 border-0">
+                  <img src="img/pexels-mauborjjaph-12259620.jpg" class="card-img-top transformacion" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center Cartas">Quintana Roo</h5>
+                    <p class="card-text">Quintana Roo es un estado del sur de México en el que 
+                        habitan 174.000 personas hablantes de la comunidad
+                        indígena maya.
+                        <br>
+                        <br>
+                        Este estado tiene una preciosa costa caribeña con playas
+                        arenosas y cuevas submarinas. Frente al mar se 
+                        encuentran las famosas ruinas mayas.</p>
+                        <input type="submit" value="Reserva" class="btn btn-secondary  w-100 rounded-0 mb-5">
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-5">
+                  <div class="card bloque h-100 border-0">
+                    <img src="img/Primicia_Maya.jpg" class="card-img-top transformacion" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center Cartas">Yucatán</h5>
+                      <p class="card-text">Yucatán es un estado de México que se caracteriza por sus
+                        playas y las ruinas mayas. Tiene un gran historia la cual se 
+                        puede ver en sus esculturas bien conservadas.
+                        <br>
+                        <br>
+                        En este estado se estima que viven actualmente 520.000 
+                        personas que hablan el idioma maya en la península de 
+                        Yucatán.</p>
+                      <input type="submit" value="Reserva" class="btn btn-secondary  w-100 rounded-0 mb-5">
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+    </div>      
+
+    <div class="segunda"></div>
+    <div class="form py-5">
+        <div class="container">
+            <div class="card  caja border-0">
+                <div class="card-body">
+                    <img src="img/logo.png" width="120px" alt="" class="d-block m-auto py-2">
+                    <p class="lead text-center pt-2 fw-lighter">Precios desde 3.000€</p>
+                    <h1 class="text-center text-success fw-ligth">Reserva tu viaje a México</h1>
+                    <form action="" class="py-3 px-5">
+                        <div class="mb-3 d-md-flex w-100">
+                            <input type="text" placeholder="Nombre" class="form-control bg-light border-0 me-2 mb-3">
+                            <input type="text" placeholder="Apellido" class="form-control bg-light border-0 me-2 mb-3">
+                            <input type="email" placeholder="Correo electrónico" class="form-control bg-light border-0 me-2 mb-3">
+                            <input type="submit"value="Reservar" class="btn btn-secondary w-100">
+
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

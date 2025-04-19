@@ -1,0 +1,60 @@
+
+.col-img{
+    background: url("../img/pexels-mikhail-nilov-6943400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+#imagen-piramide {
+    padding: 0;
+    min-height: 50vh;
+    /* width: 100%; */
+}
+
+.bg-primary{
+    background:#BFBE91!important;
+}
+.btn-secondary{
+    background-color: #405B41;
+    border: none;
+    --bs-btn-hover-bg:#253525;   
+}
+
+.pb-6{
+    padding-bottom: 70px;
+}
+
+.text-success{
+    color: #405B41!important;
+}
+.destinos{
+    font-weight: bold;
+}
+.Cartas{
+    color: #405B41;
+    font-size: 30px;
+}
+.segunda{
+    background:url(/img/casa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+.caja{
+    box-shadow: 3px 3px 56px 0px rgba(122,122,122,1);
+    margin-top: -180px;
+}
+
+.bloque{
+    box-shadow: 3px 3px 56px 0px rgba(122,122,122,1);
+
+}
+.transformacion:hover{
+    transform: rotate(0.5turn);
+    transform: scale(1.05);
+    filter: drop-shadow(16px 16px 20px #405B41);
+   
+}
