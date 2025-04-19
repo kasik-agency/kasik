@@ -37,7 +37,7 @@
     font-size: 30px;
 }
 .segunda{
-    background:url(/img/casa.jpg);
+    background:url("../img/casa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
