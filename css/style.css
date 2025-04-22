@@ -53,7 +53,7 @@
 
 }
 .transformacion:hover{
-    transform: rotate(0.5turn);
+    animation-duration:7s;
     transform: scale(1.05);
     filter: drop-shadow(16px 16px 20px #405B41);
     animation-duration:7s;
