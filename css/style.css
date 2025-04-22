@@ -56,6 +56,6 @@
     transform: rotate(0.5turn);
     transform: scale(1.05);
     filter: drop-shadow(16px 16px 20px #405B41);
-    animation-duration: 2s;
+    animation-duration: 5s;
    
 }
