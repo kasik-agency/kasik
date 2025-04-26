@@ -53,7 +53,7 @@
 
 }
 .transformacion:hover{ 
-    animation-duration: 0,5s;
+    animation-duration: 1s;
     animation-name: desplaza;  
 }
 
